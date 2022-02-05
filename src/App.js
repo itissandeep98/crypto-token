@@ -1,10 +1,10 @@
-import TokenCreate from "./Components/Main";
+import Main from "./Components/Main";
 import "./App.css";
 
 function App() {
 	return (
-		<div className="App">
-			<TokenCreate />
+		<div className="App d-flex align-items-center bg-dark text-white">
+			<Main />
 		</div>
 	);
 }
