@@ -4,7 +4,7 @@ module.exports = {
   backends: {
     origin: {
       // The domain name or IP address of the origin server
-      domainOrIp: "cryptotoken.cf",
+      domainOrIp: "layer0-origin.cryptotoken.cf",
 
       // When provided, the following value will be sent as the host header when connecting to the origin.
       // If omitted, the host header from the browser will be forwarded to the origin.
