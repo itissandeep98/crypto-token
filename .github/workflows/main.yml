@@ -27,4 +27,4 @@ jobs:
           npm i -g @layer0/cli
           npm i
           npm run build
-          layer0 deploy  --token=${{secrets.layer0DeployToken}} --environment=production
+          layer0 deploy  --token=${{secrets.layer0DeployToken}}

@@ -4,11 +4,11 @@ module.exports = {
   backends: {
     origin: {
       // The domain name or IP address of the origin server
-      domainOrIp: "layer0-origin.cryptotoken.cf",
+      domainOrIp: "layer0-origin.cryptotoken.itissandeep.co",
 
       // When provided, the following value will be sent as the host header when connecting to the origin.
       // If omitted, the host header from the browser will be forwarded to the origin.
-      hostHeader: "cryptotoken.cf",
+      hostHeader: "cryptotoken.itissandeep.co",
 
       // Uncomment the following line if TLS is not set up properly on the origin domain and you want to ignore TLS errors
       // disableCheckCert: true,
@@ -20,7 +20,7 @@ module.exports = {
   },
 
   // The name of the site in Layer0 to which which this app should be deployed.
-  name: "cryptotoken.cf",
+  name: "cryptotoken.itissandeep.co",
 
   // The name of the team in Layer0 to which which this app should be deployed.
   // team: 'my-team-name',
